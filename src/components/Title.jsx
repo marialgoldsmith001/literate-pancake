@@ -8,10 +8,10 @@ function Title() {
     },[]);
     return (
         <>
-        <h1>{headerTitle.name}</h1>
-        <h2>{headerTitle.title}</h2>
-        <h3>{headerTitle.email} | {headerTitle.github}</h3>
-        <p>{headerTitle.description}</p>
+            <h1>{headerTitle.name}</h1>
+            <h2>{headerTitle.title}</h2>
+            <h3>{headerTitle.email} | {headerTitle.github}</h3>
+            <p>{headerTitle.description}</p>
         </>
     );
 }
