@@ -1,0 +1,37 @@
+[
+    {
+        "technology": "JavaScript",
+        "proficiency": 5,
+        "Last time used": "2024-06"
+    },
+    {
+        "technology": "React",
+        "proficiency": 4,
+        "Last time used": "2024-06"
+    },
+    {
+        "technology": "Node.js",
+        "proficiency": 3,
+        "Last time used": "2024-06"
+    },
+    {
+        "technology": "Python",
+        "proficiency": 4,
+        "Last time used": "2024-06"
+    },
+    {
+        "technology": "Django",
+        "proficiency": 3,
+        "Last time used": "2024-06"
+    },
+    {
+        "technology": "SQL",
+        "proficiency": 4,
+        "Last time used": "2024-06"
+    },
+    {
+        "technology": "Git",
+        "proficiency": 5,
+        "Last time used": "2024-06"
+    }
+]
