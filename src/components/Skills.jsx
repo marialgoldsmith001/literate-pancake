@@ -4,11 +4,14 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { useEffect } from "react";
 import React, {useState} from "react";
+import Rating from '@mui/material/Rating';
+import { Typography } from '@mui/material';
 
-export default function Skills() {
+function Skills() {
   const [skills, setSkills] = useState([]);
   useEffect(() =>{
       fetch("skills.json").then(response => response.json()).then(data => setSkills(data))
@@ -16,12 +19,12 @@ export default function Skills() {
   
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table sx={{ minWidth: 300, marginTop: 5}} aria-label="simple table">
         <TableHead>
-          <TableRow>
-            <TableCell>Technology</TableCell>
-            <TableCell align="right">Last time used</TableCell>
-            <TableCell align="right">Self-rating</TableCell>
+          <TableRow sx={{ backgroundColor: '#0066CC', p: 0.5, borderRadius: 1 }}>
+            <TableCell><Typography variant="h6" sx={{ color: 'white' }}>Technology</Typography></TableCell>
+            <TableCell align="right"><Typography variant="h6" sx={{ color: 'white' }}>Last time used</Typography></TableCell>
+            <TableCell align="right"><Typography variant="h6" sx={{ color: 'white' }}>Self-rating</Typography></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -34,7 +37,7 @@ export default function Skills() {
                 {skill.technology}
               </TableCell>
               <TableCell align="right">{skill["Last time used"]}</TableCell>
-              <TableCell align="right"><Rating name="read-only" value={skill.proficiency} readOnly /></TableCell>
+              <TableCell align="right"><Rating name="read-only" value={parseInt(skill.proficiency)} readOnly /></TableCell>
             </TableRow>
           ))}
         </TableBody>
@@ -42,3 +45,5 @@ export default function Skills() {
     </TableContainer>
   );
 }
+
+export default Skills;
