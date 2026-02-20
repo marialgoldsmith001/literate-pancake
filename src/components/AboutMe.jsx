@@ -1,6 +1,5 @@
-import { Box, Divider, Typography, Paper } from "@mui/material";
-import { useEffect } from "react";
-import React, {useState} from "react";
+import { Box, Divider, Typography } from "@mui/material";
+import React, { useEffect, useState } from "react";
 
 function AboutMe() {
     const [headerTitle, setHeaderTitle] = useState([]);
