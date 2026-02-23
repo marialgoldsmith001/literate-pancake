@@ -7,7 +7,6 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Paper,
   Rating
 } from '@mui/material';
 
@@ -18,8 +17,8 @@ function Skills() {
   },[]);
   
   return (
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 300, marginTop: 5}} aria-label="simple table">
+    <TableContainer sx={{ maxWidth: 600, marginTop: 5, marginLeft: 'auto', marginRight: 'auto' }}>
+      <Table aria-label="simple table">
         <TableHead>
           <TableRow sx={{ backgroundColor: '#0066CC', p: 0.5, borderRadius: 1 }}>
             <TableCell><Typography variant="h6" sx={{ color: 'white' }}>Technology</Typography></TableCell>

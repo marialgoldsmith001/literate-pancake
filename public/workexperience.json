@@ -1,0 +1,130 @@
+[
+    {
+        "company": "Mastercard",
+        "service-period":"August 2025 - Feb 2026",
+        "position":"Sr. Software Engineer - Internal Developer Platform (IDP) and Data Lake Architecture",
+        "description":[
+           "Designed and developed an Internal Developer Platform (IDP) using TypeScript and React built on the Backstage framework.",
+           "Enabled standardized service catalog and self-service workflows for engineering teams.",
+           "Architected enterprise-grade AWS Data Lake to centralize DevOps telemetry and operational data.",
+           "Ingestion via batch pipelines and AWS Managed Kafka (MSK)",
+           "Data transformation using AWS Glue jobs",
+           "Storage and table management with Apache Iceberg on S3",
+           "Governance and access control via AWS Lake Formation",
+           "Enabled scalable telemetry aggregation to support operational analytics."
+        ]
+    },
+    {
+        "company": "Mastercard",
+        "service-period":"May 2023 - August 2025",
+        "position":"Sr. Software Engineer - AI-Driven DevOps Automation",
+        "description":[
+            "Architected and implemented an AI-powered DevOps Support Bot using AWS Bedrock.",
+            "Designed conversational AI workflows to: triage DevOps support tickets, provide automated responses for common operational queries, and route complex issues to appropriate engineering teams",
+            "Implemented intelligent ticket lifecycle management including automated metric collection and SLA tracking.",
+            "Centralized support telemetry for operational performance analysis and AI model improvement.",
+            "Significantly reduced manual DevOps support workload through intelligent automation."
+        ]
+    },
+    {
+        "company": "Mastercard",
+        "service-period":"March 2021 - May 2023",
+        "position":"Sr. Software Engineer- Software Defined Networking",
+        "description":[
+            "Design and code a program using Golang that would read YAML network documents and produce the necessary Terraform files for plan and apply",
+            "Automate migration if Mastercard’s full network from a tier to tier firewall model to a micro-segmented model.",
+            "Design and run Terraform modules to automate firewall policy in different providers as NSXT, Checkpoint, and Illumio.",
+            "Apply tests as part of all build process.",
+            "Monitor builds as part of a Jenkins pipeline integration.",
+            "Maintain and enhance internal application developed with Python and Go.",
+            "Work in Azure, AWS, and PCF cloud platforms.",
+            "Use Kubernetes, Jenkins, and Bitbucket.",
+            "Build and mantain an API in python to gather network data and help user find in what segment their network connections were being blocked"
+        ]
+    },
+    {
+        "company": "Mastercard",
+        "service-period":"Feb 2020 - March 2021",
+        "position":"Sr. Software Engineer - Fraud Intelligence",
+        "description":[
+            "Work closely with other business analysts, development teams and infrastructure specialists to deliver high availability solutions for mission-critical applications working in an agile/DevOpsenvironment.", 
+            "Adjusted design parameters to boost performance and incorporate new features.",
+            "Created proofs of concept for innovative new solutions using Dynatrace and Splunk.",
+            "Created a small project using Docker and Ansible. Installed Docker and used it deploy ELK instances on it for metric beat and filebeat and Ansible to automate the images, filebeat, and metric beat configuration in Azure Cloud.",
+            "Planned and developed interfaces using Dynatrace that simplified overall management and offered ease-of-monitor our applications.",
+            "Use Cloud Foundry, Jenkins deployments managed by Chef cookbooks, and XLF automated production deployment pipelines for CI/CD.",
+            "Gain pro-efficiency using SQL queries.",
+            "Collaborate with outside departments to implement system-wide improvements.",
+            "Help streamline repair processes and update procedures for support action consistency."
+        ]
+    },
+    {
+        "company": "Enterprise Holdings",
+        "service-period":"July 2019 - Feb 2020",
+        "position":"Software Engineer II - API Strategies",
+        "description": [
+            "Developed, coded and updated Enterprise Holdings public API from scratch in SQL database working in an agile environment.",
+            "Planned and engineered RESTful web services to manipulate dynamic datasets.",
+            "Developed back-end components to connect applications with web services.",
+            "Implemented successful API practices and management using technology as Kong.",
+            "Worked closely on major setup of cloud infrastructures as AWS and Azure.",
+            "Automated networking processes and configurations using Terraform.",
+            "Used Ansible to manipulate the client's sessions and be able to create a blue-green deployment by calling these Ansible playbooks from Jenkins using Ansible tower API.",
+            "Used Python to create a script that configured all environment variables and packaged the code into an .rpm file to be then put in antifactory. This script was called by every app in the company as part of the Jenkins pipeline.",
+            "Worked on a POC, installed on a on prep server and deployed some containers with a test app. The goal for this POC was not to learn of Docker but to build the pipeline on Jenkins to run deployments in Docker."
+        ]
+    },
+    {
+        "company": "Enterprise Holdings",
+        "service-period":"October 2017 - July 2019",
+        "position":"Software Engineer II - Risk Management",
+        "description": [
+            "Orchestrated efficient large-scale software deployments, including testing features and correcting code.",
+            "Successfully introduced to on call rotation.",
+            "Implemented new software applications and operating system roll-outs across business enterprise, including Jenkins pipelines and CICD.",
+            "Wrote code and supported architecture in high-throughput systems on AWS cloud.",
+            "Designed and built automation tools and applications to deploy next generation platform.",
+            "Monitored automated build and continuous software integration process to drive build/release failure resolution.",
+            "Checked client code for bugs and weaknesses using Sonarqube and Automated testing methods.",
+            "Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality."
+        ]
+    },
+    {
+        "company": "Enterprise Holdings",
+        "service-period":"June 2016 - October 2017",
+        "position":"Software Engineer I - Risk Management",
+        "description": [
+            "Performed regression and system-level testing to verify software quality and function prior to release.",
+            "Collaborated with project managers to select ambitious, but realistic coding milestones on pre-release software project development.",
+            "Introduced agile methodologies and effective development best practices to division to enhance product development.",
+            "Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.",
+            "Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs and enhancements.",
+            "Led version control efforts, employing GitHub and other public and open source repositories.",
+            "Authored code fixes and enhancements for inclusion in future code releases and patches."
+        ]
+    },
+    {
+        "company": "Enterprise Holdings",
+        "service-period":"March 2016 - May 2016",
+        "position":"Software Engineer I - Risk Management",
+        "description": [
+            "Worked with 3 other interns to create a website that checks the status of the company's main pages (enterprise.com, alamo.com, and national.com) so that the team could have easier verification during on calls.",
+            "Learned software engineering process improvements and best practices.",
+            "Introduced agile methodologies and effective development best practices to division to enhance product development.",
+            "Carefully documented technical workflows and knowledge in private wiki for education of newly hired employees.",
+            "Stress-tested server code to validate code changes using JMeter."
+        ]
+    },
+    {
+        "company": "Goedekers",
+        "service-period":"March 2016 - May 2016",
+        "position":"Developer Intern",
+        "description": [
+            "Developed back-end components to connect applications with web services.",
+            "Wrote server-side and client-side code for goedekers.com using PHP, HTML, CSS and JavaScript, specifically with Magenta framework.",
+            "Regularly updated knowledge of latest industry trends in web development and related technologies.",
+            "Performed troubleshooting of technical issues within production environment.",
+            "Reviewed code, debugged problems and corrected issues."
+        ]
+    }
+]

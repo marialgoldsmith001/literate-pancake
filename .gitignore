@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+public\workexperience.json
+public\skills.json
+public\aboutme.json
