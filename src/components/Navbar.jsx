@@ -21,7 +21,7 @@ function Navbar() {
         <Tab label="Skills" onClick={() => navigate("/skills")} />
         <Tab label="Work Experience" onClick={() => navigate("/workexperience")}/>
         <Tab label="Personal Projects" />
-        <Tab label="Contact Me" />
+        <Tab label="Certifications" />
       </Tabs>
     </Box>
   );
