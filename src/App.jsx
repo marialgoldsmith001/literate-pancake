@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Skills from './components/Skills';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
+import WorkExperience from './components/WorkExperience';
 import { Container } from '@mui/material';
 
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/workexperience" element={<WorkExperience />} />
       </Routes>
     </Container>
   )
