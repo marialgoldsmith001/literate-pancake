@@ -20,8 +20,8 @@ function Navbar() {
         <Tab label="About Me" onClick={() => navigate("/")} />
         <Tab label="Skills" onClick={() => navigate("/skills")} />
         <Tab label="Work Experience" onClick={() => navigate("/workexperience")}/>
-        <Tab label="Personal Projects" />
-        <Tab label="Certifications" />
+        <Tab label="Personal Projects" onClick={() => navigate("/personalprojects")} />
+        <Tab label="References" onClick={() => navigate("/references")} />
       </Tabs>
     </Box>
   );
