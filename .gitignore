@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-public\workexperience.json
-public\skills.json
-public\aboutme.json
-public\personalprojects.json
+public/workexperience.json
+public/skills.json
+public/aboutme.json
+public/personalprojects.json
