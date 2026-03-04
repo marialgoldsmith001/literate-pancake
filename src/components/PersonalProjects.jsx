@@ -7,7 +7,7 @@ function PersonalProjects() {
         fetch("personalprojects.json").then(response => response.json()).then(data => setPersonalProjects(data))
     },[]);
     return (
-        <Grid size={{ sm: 12, md: 6}} sx={{marginTop: 5, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+        <Grid sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             {personalProjects.map((project, index) => (
                 <Box key={index} sx={{ mb: 3, maxWidth: 700 }}>
                     <Typography variant="h6">{project.name}</Typography>

@@ -17,7 +17,7 @@ function Skills() {
   },[]);
   
   return (
-    <TableContainer sx={{ maxWidth: 600, marginTop: 5, marginLeft: 'auto', marginRight: 'auto' }}>
+    <TableContainer sx={{ maxWidth: 700, marginTop: 5, marginLeft: 'auto', marginRight: 'auto' }}>
       <Table aria-label="simple table">
         <TableHead>
           <TableRow sx={{ backgroundColor: '#0066CC', p: 0.5, borderRadius: 1 }}>

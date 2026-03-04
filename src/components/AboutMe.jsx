@@ -7,9 +7,9 @@ function AboutMe() {
         fetch("aboutme.json").then(response => response.json()).then(data => setHeaderTitle(data))
     },[]);
     return (
-        <Box sx={{marginTop: 5, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%'}}>
+        <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <Typography variant="h4">{headerTitle.name}</Typography>
-            <Divider sx={{ width: 400, color: '#0066CC' }}><Typography variant="h6">{headerTitle.title}</Typography></Divider>
+            <Divider sx={{ width: 700, color: '#0066CC' }}><Typography variant="h6">{headerTitle.title}</Typography></Divider>
             <Typography variant="body1" sx={{ p: 2, maxWidth: 700 }}>{headerTitle.description}</Typography>
         </Box>
     );

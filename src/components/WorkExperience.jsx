@@ -7,7 +7,7 @@ function WorkExperience() {
         fetch("workexperience.json").then(response => response.json()).then(data => setWorkExperience(data))
     },[]);
     return (
-        <Grid size={{ sm: 12, md: 6}} sx={{marginTop: 5, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+        <Grid sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             {workExperience.map((experience, index) => (
                 <Box key={index} sx={{ mb: 3 }}>
                     <Typography variant="h6">{experience.company}</Typography>
